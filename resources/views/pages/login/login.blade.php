@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="loginTemplate/css/owl.carousel.min.css">
 
+     <!-- Favicon -->
+     <link rel="icon" type="image/jpeg" href="{{ asset('JG.png') }}">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="loginTemplate/css/bootstrap.min.css">
     
