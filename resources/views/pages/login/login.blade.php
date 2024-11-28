@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="Login/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="loginTemplate/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="Login/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="loginTemplate/css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Login/css/bootstrap.min.css">
+    <link rel="stylesheet" href="loginTemplate/css/bootstrap.min.css">
     
     <!-- Style -->
-    <link rel="stylesheet" href="Login/css/style.css">
+    <link rel="stylesheet" href="loginTemplate/css/style.css">
 
-    <title>Login #4</title>
+    <title>Login | Page</title>
   </head>
   <body>
   
 
   <div class="d-md-flex half">
-    <div class="bg" style="background-image: url('Login/images/bg_1.jpg');"></div>
+    <div class="bg" style="background-image: url('loginTemplate/images/bg_1.jpg');"></div>
     <div class="contents">
 
       <div class="container">
@@ -65,9 +65,9 @@
     
     
 
-    <script src="Login/js/jquery-3.3.1.min.js"></script>
-    <script src="Login/js/popper.min.js"></script>
-    <script src="Login/js/bootstrap.min.js"></script>
-    <script src="Login/js/main.js"></script>
+    <script src="loginTemplate/js/jquery-3.3.1.min.js"></script>
+    <script src="loginTemplate/js/popper.min.js"></script>
+    <script src="loginTemplate/js/bootstrap.min.js"></script>
+    <script src="loginTemplate/js/main.js"></script>
   </body>
 </html>

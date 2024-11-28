@@ -29,6 +29,6 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="/log" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Login</a>
+            <a href="/login" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Login</a>
         </div>
     </nav>
