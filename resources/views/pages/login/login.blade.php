@@ -36,7 +36,7 @@
               <h3><strong>Login</strong></h3>
               <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
               </div>
-              <form action="#" method="post">
+              <form action="{{ route('dashboard') }}" method="GET">
                 <div class="form-group first">
                   <label for="username">Username</label>
                   <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
