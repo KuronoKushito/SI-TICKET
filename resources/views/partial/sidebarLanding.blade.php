@@ -10,11 +10,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="services.html" class="nav-item nav-link">Services</a>
-                <a href="packages.html" class="nav-item nav-link">Packages</a>
-                <a href="blog.html" class="nav-item nav-link">Blog</a>
+                <a href="templates/index.html" class="nav-item nav-link active">Home</a>
+                <a href="templates/about.html" class="nav-item nav-link">About</a>
+                <a href="templates/services.html" class="nav-item nav-link">Services</a>
+                <a href="templates/packages.html" class="nav-item nav-link">Packages</a>
+                <a href="templates/blog.html" class="nav-item nav-link">Blog</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
