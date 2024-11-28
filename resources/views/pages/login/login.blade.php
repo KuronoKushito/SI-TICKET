@@ -22,7 +22,7 @@
   
 
   <div class="d-md-flex half">
-    <div class="bg" style="background-image: url('loginTemplate/images/bg_1.jpg');"></div>
+    <div class="bg" style="background-image: url('loginTemplate/images/bg_1.png');"></div>
     <div class="contents">
 
       <div class="container">
@@ -30,7 +30,7 @@
           <div class="col-md-12">
             <div class="form-block mx-auto">
               <div class="text-center mb-5">
-              <h3>Login to <strong>Colorlib</strong></h3>
+              <h3><strong>Login</strong></h3>
               <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
               </div>
               <form action="#" method="post">
@@ -51,7 +51,7 @@
                   <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
                 </div>
 
-                <input type="submit" value="Log In" class="btn btn-block btn-primary">
+                <input type="submit" value="Submit" class="btn btn-block btn-primary">
 
               </form>
             </div>
