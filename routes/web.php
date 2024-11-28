@@ -6,4 +6,4 @@ use App\Http\Controllers\Login\LoginController;
 
 Route::get('/', [LandingPageController::class, 'beranda']);
 
-Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::get('/log', [LoginController::class, 'index'])->name('login');
