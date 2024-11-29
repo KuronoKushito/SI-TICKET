@@ -28,7 +28,7 @@
 							<div class="row align-items-center">
 								<div class="col-icon">
 									<div class="icon-big text-center icon-primary bubble-shadow-small">
-										<i class="fas fa-users"></i>
+										<i class="fas fa-check-circle"></i>
 									</div>
 								</div>
 								<div class="col col-stats ml-3 ml-sm-0">
@@ -46,8 +46,8 @@
 						<div class="card-body">
 							<div class="row align-items-center">
 								<div class="col-icon">
-									<div class="icon-big text-center icon-info bubble-shadow-small">
-										<i class="far fa-newspaper"></i>
+									<div class="icon-big text-center icon-warning bubble-shadow-small">
+										<i class="fas fa-hourglass-half"></i>
 									</div>
 								</div>
 								<div class="col col-stats ml-3 ml-sm-0">
@@ -66,7 +66,7 @@
 							<div class="row align-items-center">
 								<div class="col-icon">
 									<div class="icon-big text-center icon-success bubble-shadow-small">
-										<i class="far fa-chart-bar"></i>
+										<i class="fas fa-clipboard-list"></i>
 									</div>
 								</div>
 								<div class="col col-stats ml-3 ml-sm-0">
@@ -84,8 +84,8 @@
 						<div class="card-body">
 							<div class="row align-items-center">
 								<div class="col-icon">
-									<div class="icon-big text-center icon-secondary bubble-shadow-small">
-										<i class="far fa-check-circle"></i>
+									<div class="icon-big text-center icon-danger bubble-shadow-small">
+										<i class="fas fa-ban"></i>
 									</div>
 								</div>
 								<div class="col col-stats ml-3 ml-sm-0">

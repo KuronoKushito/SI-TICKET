@@ -48,7 +48,7 @@
                 </li>
                 <li class="nav-item {{ request()->routeIs('tiket_*') ? 'active' : '' }}">
                     <a data-toggle="collapse" href="#base">
-                        <i class="fas fa-layer-group"></i>
+                        <i class="fas fa-ticket-alt"></i>
                         <p>Tiket</p>
                         <span class="caret"></span>
                     </a>
