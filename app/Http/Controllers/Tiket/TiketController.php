@@ -11,7 +11,7 @@ class TiketController extends Controller
         $data = [
             'title' => 'SI-TIKET | DISETUJUI'
         ];
-        return view('pages.departement.tiket_disetujui.tiket', $data);
+        return view('pages.department.tiket_disetujui.tiket', $data);
     }
 
     public function tproses()
@@ -19,7 +19,7 @@ class TiketController extends Controller
         $data = [
             'title' => 'SI-TIKET | DIPROSES'
         ];
-        return view('pages.departement.tiket_diproses.tiket', $data);
+        return view('pages.department.tiket_diproses.tiket', $data);
     }
 
     public function ttolak()
@@ -27,7 +27,7 @@ class TiketController extends Controller
         $data = [
             'title' => 'SI-TIKET | DITOLAK'
         ];
-        return view('pages.departement.tiket_ditolak.tiket', $data);
+        return view('pages.department.tiket_ditolak.tiket', $data);
     }
 
     public function tselesai()
@@ -35,6 +35,6 @@ class TiketController extends Controller
         $data = [
             'title' => 'SI-TIKET | SELESAI'
         ];
-        return view('pages.departement.tiket_selesai.tiket', $data);
+        return view('pages.department.tiket_selesai.tiket', $data);
     }
 }
