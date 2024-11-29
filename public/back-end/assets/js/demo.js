@@ -62,37 +62,52 @@ var statisticsChart = new Chart(ctx, {
 	type: 'line',
 	data: {
 		labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-		datasets: [ {
-			label: "Subscribers",
-			borderColor: '#f3545d',
-			pointBackgroundColor: 'rgba(243, 84, 93, 0.2)',
-			pointRadius: 0,
-			backgroundColor: 'rgba(243, 84, 93, 0.1)',
-			legendColor: '#f3545d',
-			fill: true,
-			borderWidth: 2,
-			data: [154, 184, 175, 203, 210, 231, 240, 278, 252, 312, 320, 374]
-		}, {
-			label: "New Visitors",
-			borderColor: '#fdaf4b',
-			pointBackgroundColor: 'rgba(253, 175, 75, 0.2)',
-			pointRadius: 0,
-			backgroundColor: 'rgba(253, 175, 75, 0.1)',
-			legendColor: '#fdaf4b',
-			fill: true,
-			borderWidth: 2,
-			data: [256, 230, 245, 287, 240, 250, 230, 295, 331, 431, 456, 521]
-		}, {
-			label: "Active Users",
-			borderColor: '#177dff',
-			pointBackgroundColor: 'rgba(23, 125, 255, 0.2)',
-			pointRadius: 0,
-			backgroundColor: 'rgba(23, 125, 255, 0.1)',
-			legendColor: '#177dff',
-			fill: true,
-			borderWidth: 2,
-			data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 900]
-		}]
+		datasets: [
+			{
+				label: "Disetujui",
+				borderColor: '#177dff', // Warna biru
+				pointBackgroundColor: 'rgba(23, 125, 255, 0.2)',
+				pointRadius: 0,
+				backgroundColor: 'rgba(23, 125, 255, 0.1)',
+				legendColor: '#177dff',
+				fill: true,
+				borderWidth: 2,
+				data: [12, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80] // Data contoh
+			},
+			{
+				label: "Proses",
+				borderColor: '#fdaf4b', // Warna kuning
+				pointBackgroundColor: 'rgba(253, 175, 75, 0.2)',
+				pointRadius: 0,
+				backgroundColor: 'rgba(253, 175, 75, 0.1)',
+				legendColor: '#fdaf4b',
+				fill: true,
+				borderWidth: 2,
+				data: [3, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24] // Data contoh
+			},
+			{
+				label: "Selesai",
+				borderColor: '#28a745', // Warna hijau
+				pointBackgroundColor: 'rgba(40, 167, 69, 0.2)',
+				pointRadius: 0,
+				backgroundColor: 'rgba(40, 167, 69, 0.1)',
+				legendColor: '#28a745',
+				fill: true,
+				borderWidth: 2,
+				data: [10, 12, 15, 20, 25, 30, 35, 40, 50, 55, 60, 70] // Data contoh
+			},
+			{
+				label: "Ditolak",
+				borderColor: '#f3545d', // Warna merah
+				pointBackgroundColor: 'rgba(243, 84, 93, 0.2)',
+				pointRadius: 0,
+				backgroundColor: 'rgba(243, 84, 93, 0.1)',
+				legendColor: '#f3545d',
+				fill: true,
+				borderWidth: 2,
+				data: [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18] // Data contoh
+			}
+		]
 	},
 	options : {
 		responsive: true, 
