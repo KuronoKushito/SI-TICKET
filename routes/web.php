@@ -11,7 +11,7 @@ Route::get('/', [LandingPageController::class, 'beranda']);
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 
-Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard'); 
+Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
 
 Route::get('/tdisetujui', [TiketController::class, 'index'])->name('tiket_setuju');
 
