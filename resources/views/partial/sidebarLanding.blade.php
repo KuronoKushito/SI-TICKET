@@ -1,10 +1,13 @@
  <!-- Navbar & Hero Start -->
  <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="" class="navbar-brand p-0">
-            <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Travela</h1>
-            <!-- <img src="templates/img/logo.png" alt="Logo"> -->
+        <a class="navbar-brand p-0">
+            <h1 class="m-0">
+                <img src="{{ asset ('images/logo/logo-bmn.png')}}" alt="navbar brand" class="navbar-brand" style="width: 50px; height: auto;">
+                <span style="color: green;">Jhonlin</span> <span style="color: #000080;">Group</span>
+            </h1>
         </a>
+             
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
         </button>
