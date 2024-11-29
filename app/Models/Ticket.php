@@ -2,10 +2,14 @@
 
 namespace App\Models;
 
+use App\Models\Category;
+use App\Models\Department;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Ticket extends Model
 {
+    use HasFactory;
     protected $table = 'ticket';
     protected $primaryKey = 'idticket';
     protected $fillable = ['idcategory', 'iddepartment', 'username', 'phonenumber', 'trouble'];
