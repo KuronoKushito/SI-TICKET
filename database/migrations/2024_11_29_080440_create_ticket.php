@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('phonenumber');
             $table->text('trouble');
             $table->timestamps();
+            //
         });
     }
 
