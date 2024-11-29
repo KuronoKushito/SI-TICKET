@@ -40,38 +40,37 @@
                 </div>
             </div>
             <ul class="nav">
-                <li class="nav-item">
+                <li class="nav-item {{ request()->routeIs('dashboard') ? 'active' : '' }}">
                     <a href="/dashboard">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
-                        
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ request()->routeIs('tiket_*') ? 'active' : '' }}">
                     <a data-toggle="collapse" href="#base">
                         <i class="fas fa-layer-group"></i>
                         <p>Tiket</p>
                         <span class="caret"></span>
                     </a>
-                    <div class="collapse" id="base">
+                    <div class="collapse {{ request()->routeIs('tiket_*') ? 'show' : '' }}" id="base">
                         <ul class="nav nav-collapse">
-                            <li>
+                            <li class="{{ request()->routeIs('tiket_setuju') ? 'active' : '' }}">
                                 <a href="/tdisetujui">
                                     <span class="sub-item">Disetujui</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="{{ request()->routeIs('tiket_proses') ? 'active' : '' }}">
                                 <a href="/tdiproses">
                                     <span class="sub-item">Proses</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="tdiselesai">
+                            <li class="{{ request()->routeIs('tiket_selesai') ? 'active' : '' }}">
+                                <a href="/tdiselesai">
                                     <span class="sub-item">Selesai</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="tditolak">
+                            <li class="{{ request()->routeIs('tiket_tolak') ? 'active' : '' }}">
+                                <a href="/tditolak">
                                     <span class="sub-item">Ditolak</span>
                                 </a>
                             </li>
@@ -79,6 +78,7 @@
                     </div>
                 </li>
             </ul>
+            
         </div>
     </div>
 </div>
