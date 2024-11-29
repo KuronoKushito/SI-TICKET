@@ -109,6 +109,36 @@
 
         <!-- Template Javascript -->
         <script src="templates/js/main.js"></script>
+
+
+        <script>
+        // Select all navigation links
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        // Function to add active class based on scroll position
+        function setActiveLink() {
+            let fromTop = window.scrollY;
+
+            navLinks.forEach(link => {
+                let section = document.querySelector(link.getAttribute('href'));
+                if (section) {
+                    // Check if the section is within the viewport
+                    if (
+                        section.offsetTop <= fromTop + 100 &&
+                        section.offsetTop + section.offsetHeight > fromTop + 100
+                    ) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                }
+            });
+        }
+
+        // Run on scroll
+        window.addEventListener('scroll', setActiveLink);
+    </script>
+
     </body>
 
 </html>

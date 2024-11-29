@@ -3,7 +3,7 @@
 @section('content')
 
             <!-- Carousel Start -->
-            <div class="carousel-header">
+            <div class="carousel-header" id="beranda-section">
                 <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
@@ -16,9 +16,9 @@
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                   
-                                    <h1 class="display-2 text-capitalize text-white mb-4">Solusi Cepat!</h1>
-                                    <p class="mb-5 fs-5">Kami memberikan solusi cepat untuk mengatasi bug dan masalah teknologi, memastikan bahwa sistem Anda kembali berjalan dengan lancar tanpa downtime yang lama
-                                    </p>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Quick Solution!</h1>
+                                        <p class="mb-5 fs-5">We provide quick solutions to fix bugs and tech issues, ensuring your system gets back up and running smoothly without prolonged downtime.
+                                        </p>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Submit A Bug Report</a>
                                     </div>
@@ -30,8 +30,8 @@
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                    
-                                    <h1 class="display-2 text-capitalize text-white mb-4">Perbaikan Tanpa Hambatan</h1>
-                                    <p class="mb-5 fs-5">Tim ahli kami siap memberikan perbaikan tanpa hambatan untuk setiap masalah teknis, menjaga agar operasi bisnis Anda tetap efisien dan bebas dari gangguan
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Seamless Repairs</h1>
+                                    <p class="mb-5 fs-5">Our team of experts is ready to provide seamless repairs for any technical issues, ensuring your business operations remain efficient and uninterrupted.
                                     </p>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Submit A Bug Report</a>
@@ -43,16 +43,14 @@
                             <img src="templates/img/home2.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
-                                  
-                                    <h1 class="display-2 text-capitalize text-white mb-4">Pemecahan Cerdas</h1>
-                                    <p class="mb-5 fs-5">Dengan pendekatan pemecahan cerdas, kami tidak hanya memperbaiki masalah yang ada, tetapi juga mengidentifikasi dan mencegah potensi masalah di masa depan, memastikan sistem Anda selalu optimal
-                                    </p>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Smart Solutions</h1>
+                                    <p class="mb-5 fs-5">With our smart solutions approach, we not only resolve existing issues but also identify and prevent potential problems in the future, ensuring your systems remain optimized at all times.</p>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Submit A Bug Report</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
@@ -70,7 +68,7 @@
         <!-- Navbar & Hero End -->
 
         <!-- About Start -->
-        <div class="container-fluid about py-5">
+        <div class="container-fluid about py-5" id="about-section">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
@@ -81,18 +79,16 @@
                     <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(templates/img/about-img-1.png);">
                         <h5 class="section-about-title pe-3">About Us</h5>
                         <h1 class="mb-4">Welcome to <span class="text-primary">SI-TIKET</span></h1>
-                        <p class="mb-4">Kami adalah tim profesional yang ahli dalam menyelesaikan berbagai masalah teknologi, termasuk hardware, jaringan, SAP, dan user access. Kami menangani masalah perangkat keras, memastikan perangkat Anda berfungsi optimal dan menghindari gangguan operasional. Dalam hal jaringan, kami menawarkan solusi konektivitas yang handal, memastikan komunikasi dan aliran data dalam bisnis berjalan lancar. Kami juga berpengalaman dalam implementasi dan pemeliharaan SAP, mendukung sistem bisnis Anda agar lebih efisien dan terintegrasi.</p>
-                        <p class="mb-4">Selain itu, kami memastikan akses pengguna yang aman dan terkontrol, menjaga sistem dan data Anda tetap terlindungi. Dengan pendekatan yang cepat dan cerdas, kami siap memberikan solusi terbaik untuk setiap tantangan teknis yang Anda hadapi, sehingga bisnis Anda dapat tetap berjalan dengan lancar tanpa hambatan.</p>
-                      
-                     
-                    </div>
+                        <p class="mb-4">We are a team of professionals specializing in solving various technology issues, including hardware, networks, SAP, and user access. We address hardware problems, ensuring your devices function optimally and avoid operational disruptions. For networks, we offer reliable connectivity solutions, ensuring smooth communication and data flow within your business. We also have expertise in SAP implementation and maintenance, supporting your business systems to be more efficient and integrated.</p>
+                        <p class="mb-4">Additionally, we ensure secure and controlled user access, keeping your systems and data protected. With a fast and intelligent approach, we are ready to provide the best solutions for any technical challenges you face, allowing your business to operate seamlessly without interruptions.</p>
+                    </div>                    
                 </div>
             </div>
         </div>
         <!-- About End -->
 
         <!-- Services Start -->
-        <div class="container-fluid bg-light service py-5">
+        <div class="container-fluid bg-light service py-5" id="services-section">
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5" style="max-width: 900px;">
                     <h5 class="section-title px-3">Services</h5>
@@ -104,9 +100,8 @@
                             <div class="col-12">
                                 <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
                                     <div class="service-content text-end">
-                                        <h5 class="mb-4">Hardware </h5>
-                                        <p class="mb-0"> Pemasangan, perawatan, dan pemeliharaan perangkat keras untuk memastikan sistem Anda berfungsi dengan optimal.
-                                        </p>
+                                        <h5 class="mb-4">Hardware</h5>
+                                        <p class="mb-0">Installation, maintenance, and upkeep of hardware to ensure your systems function optimally.</p>
                                     </div>
                                     <div class="service-icon p-4">
                                         <i class="fa fa-desktop fa-4x text-primary"></i>
@@ -114,19 +109,16 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
+                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
                                     <div class="service-content text-end">
-                                        <h5 class="mb-4">Jaringan</h5>
-                                        <p class="mb-0">Solusi jaringan yang handal untuk meningkatkan konektivitas dan kecepatan akses data perusahaan Anda.
-                                        </p>
+                                        <h5 class="mb-4">Networking</h5>
+                                        <p class="mb-0">Reliable networking solutions to enhance your company's connectivity and data access speed.</p>
                                     </div>
                                     <div class="service-icon p-4">
                                         <i class="fa fa-signal fa-4x text-primary"></i>
                                     </div>
                                 </div>
                             </div>
-
-                           
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -138,12 +130,10 @@
                                     </div>
                                     <div class="service-content">
                                         <h5 class="mb-4">User Access</h5>
-                                        <p class="mb-0">Manajemen akses pengguna yang aman untuk melindungi data sensitif dan memastikan akses yang tepat untuk setiap pengguna.
-                                        </p>
+                                        <p class="mb-0">Secure user access management to protect sensitive data and ensure appropriate access for each user.</p>
                                     </div>
                                 </div>
                             </div>
-                          
                             <div class="col-12">
                                 <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
                                     <div class="service-icon p-4">
@@ -151,15 +141,13 @@
                                     </div>
                                     <div class="service-content">
                                         <h5 class="mb-4">SAP</h5>
-                                        <p class="mb-0">Implementasi dan dukungan SAP untuk membantu bisnis Anda menjalankan proses yang lebih efisien dan terintegrasi.
-                                        </p>
+                                        <p class="mb-0">SAP implementation and support to help your business operate more efficiently and in an integrated manner.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  
-                </div>
+                </div>                
             </div>
         </div>
         <!-- Services End -->
@@ -342,7 +330,7 @@
         <!-- Explore Tour Start -->
 
 
-        <div class="container-fluid contact bg-light py-5">
+        <div class="container-fluid contact bg-light py-5" id="contact-section">
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5" style="max-width: 900px;">
                     <h5 class="section-title px-3">Contact Us</h5>
@@ -373,7 +361,7 @@
                     </div>
                     <div class="col-lg-8">
                         <h3 class="mb-2">Submit A Bug Report</h3>
-                        <p class="mb-4">Jangan ragu untuk menghubungi kami jika Anda menghadapi masalah atau membutuhkan bantuan teknis. Kami siap membantu Anda menyelesaikan berbagai tantangan terkait hardware, jaringan, SAP, dan akses pengguna.</p>
+                        <p class="mb-4">Feel free to contact us if you encounter any issues or need technical assistance. We are ready to help you resolve various challenges related to hardware, networking, SAP, and user access.</p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">

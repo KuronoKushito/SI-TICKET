@@ -13,25 +13,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="templates/index.html" class="nav-item nav-link active">Home</a>
-                <a href="templates/about.html" class="nav-item nav-link">About</a>
-                <a href="templates/services.html" class="nav-item nav-link">Services</a>
-                {{-- <a href="templates/packages.html" class="nav-item nav-link">Packages</a> --}}
-                {{-- <a href="templates/blog.html" class="nav-item nav-link">Blog</a> --}}
-                {{-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="destination.html" class="dropdown-item">Destination</a>
-                        <a href="tour.html" class="dropdown-item">Explore Tour</a>
-                        <a href="booking.html" class="dropdown-item">Travel Booking</a>
-                        <a href="gallery.html" class="dropdown-item">Our Gallery</a>
-                        <a href="guides.html" class="dropdown-item">Travel Guides</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div> --}}
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="#beranda-section" class="nav-item nav-link">Home</a>
+                <a href="#about-section" class="nav-item nav-link">About</a>
+                <a href="#services-section" class="nav-item nav-link">Services</a>
+                <a href="#contact-section" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="/login" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Submit A Bug Report</a>
-        </div>
+            <a href="#contact-section" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Submit A Bug Report</a>
+        </div>        
     </nav>
+    
+    
