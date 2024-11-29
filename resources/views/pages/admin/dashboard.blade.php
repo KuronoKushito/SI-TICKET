@@ -1,6 +1,7 @@
 @extends('layout.main')
 
 @section('content')
+
 <div class="main-panel">
 	<div class="content">
 		<div class="page-inner">
@@ -33,7 +34,7 @@
 								<div class="col col-stats ml-3 ml-sm-0">
 									<div class="numbers">
 										<p class="card-category">Disetujui</p>
-										<h4 class="card-title">1,294</h4>
+										<h4 class="card-title">12</h4>
 									</div>
 								</div>
 							</div>
@@ -52,7 +53,7 @@
 								<div class="col col-stats ml-3 ml-sm-0">
 									<div class="numbers">
 										<p class="card-category">Proses</p>
-										<h4 class="card-title">1303</h4>
+										<h4 class="card-title">3</h4>
 									</div>
 								</div>
 							</div>
@@ -71,7 +72,7 @@
 								<div class="col col-stats ml-3 ml-sm-0">
 									<div class="numbers">
 										<p class="card-category">Selesai</p>
-										<h4 class="card-title">$ 1,345</h4>
+										<h4 class="card-title">10</h4>
 									</div>
 								</div>
 							</div>
@@ -90,7 +91,7 @@
 								<div class="col col-stats ml-3 ml-sm-0">
 									<div class="numbers">
 										<p class="card-category">Ditolak</p>
-										<h4 class="card-title">576</h4>
+										<h4 class="card-title">2</h4>
 									</div>
 								</div>
 							</div>
@@ -99,7 +100,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
 							<div class="card-head-row">

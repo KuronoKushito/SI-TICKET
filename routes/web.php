@@ -13,4 +13,10 @@ Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard'); 
 
-Route::get('/tdisetujui', [TiketController::class, 'index'])->name('tiket');
+Route::get('/tdisetujui', [TiketController::class, 'index'])->name('tiket_setuju');
+
+Route::get('/tdiproses', [TiketController::class, 'tproses'])->name('tiket_proses');
+
+Route::get('/tditolak', [TiketController::class, 'ttolak'])->name('tiket_tolak');
+
+Route::get('/tdiselesai', [TiketController::class, 'tselesai'])->name('tiket_selesai');

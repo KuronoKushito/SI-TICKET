@@ -12,4 +12,19 @@ class TiketController extends Controller
     {
         return view('pages.departement.tiket_disetujui.tiket');
     }
+
+    public function tproses()
+    {
+        return view('pages.departement.tiket_diproses.tiket');
+    }
+
+    public function ttolak()
+    {
+        return view('pages.departement.tiket_ditolak.tiket');
+    }
+
+    public function tselesai()
+    {
+        return view('pages.departement.tiket_selesai.tiket');
+    }
 }

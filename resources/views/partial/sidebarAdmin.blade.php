@@ -40,11 +40,11 @@
                 </div>
             </div>
             <ul class="nav">
-                <li class="nav-item active">
-                    <a href="index.html">
+                <li class="nav-item">
+                    <a href="/dashboard">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
-                        <span class="badge badge-count">5</span>
+                        
                     </a>
                 </li>
                 <li class="nav-item">
@@ -61,17 +61,17 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="components/buttons.html">
+                                <a href="/tdiproses">
                                     <span class="sub-item">Proses</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="components/gridsystem.html">
+                                <a href="tdiselesai">
                                     <span class="sub-item">Selesai</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="components/panels.html">
+                                <a href="tditolak">
                                     <span class="sub-item">Ditolak</span>
                                 </a>
                             </li>
