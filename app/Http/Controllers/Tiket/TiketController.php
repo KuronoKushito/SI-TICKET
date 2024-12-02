@@ -14,7 +14,7 @@ class TiketController extends Controller
         return view('pages.department.tiket_disetujui.tiket', $data);
     }
 
-    public function tproses()
+    public function proses()
     {
         $data = [
             'title' => 'SI-TIKET | DIPROSES'
@@ -22,7 +22,7 @@ class TiketController extends Controller
         return view('pages.department.tiket_diproses.tiket', $data);
     }
 
-    public function ttolak()
+    public function tolak()
     {
         $data = [
             'title' => 'SI-TIKET | DITOLAK'
@@ -30,7 +30,7 @@ class TiketController extends Controller
         return view('pages.department.tiket_ditolak.tiket', $data);
     }
 
-    public function tselesai()
+    public function selesai()
     {
         $data = [
             'title' => 'SI-TIKET | SELESAI'
