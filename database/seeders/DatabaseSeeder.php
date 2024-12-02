@@ -20,25 +20,26 @@ class DatabaseSeeder extends Seeder
         DB::table('user')->insert([
             [
                 'username' => 'admin',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('Jhonlin@123'),
                 'level' => 'admin',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            [
-                'username' => 'sap-department',
-                'password' => Hash::make('Jhonlin@123'),
-                'level' => 'department',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'username' => 'it-department',
-                'password' => Hash::make('Jhonlin@123'),
-                'level' => 'department',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
+            // [
+            //     'username' => 'sap-department',
+            //     'password' => Hash::make('Jhonlin@123'),
+            //     'level' => 'department',
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
+            // [
+            //     'username' => 'it-department',
+            //     'password' => Hash::make('Jhonlin@123'),
+            //     'level' => 'department',
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
         ]);
     }
 }
