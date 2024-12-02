@@ -76,29 +76,62 @@
                                 <table id="add-row" class="display table table-striped table-hover" >
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Trouble</th>
-                                            <th>Departement</th>
-                                            <th>Category</th>
-                                            <th style="width: 10%">Status</th>
+                                            <th>ID Tiket</th>
+                                            <th>Nama Pelapor</th>
+                                            <th>Judul Masalah</th>
+                                            <th>Kategori</th>
+                                            <th>Status</th>
+                                            <th>Prioritas</th>
+                                            <th>Tanggal Dilaporkan</th>
+                                            <th>Tenggat Waktu</th>
+                                            <th>Departemen</th>
+                                            <th style="width: 10%">Aksi</th>
                                         </tr>
                                     </thead>
                                     
                                     <tbody>
                                         <tr>
-                                            <td>Merusakan</td>
-                                            <td>Eror</td>
-                                            <td>Edinburgh</td>
-                                            <td>Rusak</td>
-                                            <td>Parah</td>
+                                            <td>TKT001</td>
+                                            <td>John Doe</td>
+                                            <td>Login gagal</td>
+                                            <td>Bug</td>
+                                            <td>Diproses</td>
+                                            <td>Tinggi</td>
+                                            <td>2024-12-01 08:30</td>
+                                            <td>2024-12-02 17:00</td>
+                                            <td>IT</td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                                        <i class="fa fa-edit"></i>
+                                                    </button>
+                                                    <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
                                            
                                         </tr>
                                        
-                                        <td>Faizah</td>
-                                        <td>Crash</td>
-                                        <td>IT</td>
-                                        <td>Bug</td>
-                                        <td>Parah</td>
+                                        <td>TKT002</td>
+                                        <td>Jane Smith</td>
+                                        <td>Aplikasi tidak terbuka</td>
+                                        <td>UI Issue</td>
+                                        <td>Terbuka</td>
+                                        <td>Sedang</td>
+                                        <td>2024-12-01 09:00</td>
+                                        <td>2024-12-05 15:00</td>
+                                        <td>Customer Support</td>
+                                        <td>
+                                            <div class="form-button-action">
+                                                <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                                <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </td>
                                           
                                         </tr>
                                     </tbody>
