@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 <div class="sidebar">
-			
+
     <div class="sidebar-background"></div>
     <div class="sidebar-wrapper scrollbar-inner">
         <div class="sidebar-content">
@@ -55,22 +55,22 @@
                     <div class="collapse {{ request()->routeIs('tiket_*') ? 'show' : '' }}" id="base">
                         <ul class="nav nav-collapse">
                             <li class="{{ request()->routeIs('tiket_setuju') ? 'active' : '' }}">
-                                <a href="/tdisetujui">
+                                <a href="/setujui">
                                     <span class="sub-item">Disetujui</span>
                                 </a>
                             </li>
                             <li class="{{ request()->routeIs('tiket_proses') ? 'active' : '' }}">
-                                <a href="/tdiproses">
+                                <a href="/proses">
                                     <span class="sub-item">Proses</span>
                                 </a>
                             </li>
                             <li class="{{ request()->routeIs('tiket_selesai') ? 'active' : '' }}">
-                                <a href="/tdiselesai">
+                                <a href="/selesai">
                                     <span class="sub-item">Selesai</span>
                                 </a>
                             </li>
                             <li class="{{ request()->routeIs('tiket_tolak') ? 'active' : '' }}">
-                                <a href="/tditolak">
+                                <a href="/tolak">
                                     <span class="sub-item">Ditolak</span>
                                 </a>
                             </li>
@@ -78,7 +78,7 @@
                     </div>
                 </li>
             </ul>
-            
+
         </div>
     </div>
 </div>
