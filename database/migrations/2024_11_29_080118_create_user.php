@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('username');
             $table->string('email');
             $table->string('password');
-            $table->string('level');
+            $table->string('level'); //
             $table->string('profile')->nullable();
             $table->timestamps();
         });
