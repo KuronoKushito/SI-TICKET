@@ -37,4 +37,12 @@ class TiketController extends Controller
         ];
         return view('pages.department.tiket_selesai.tiket', $data);
     }
+
+    public function tiket()
+    {
+        $data = [
+            'title' => 'SI-TIKET | TIKET'
+        ];
+        return view('pages.department.tiket_utama.tiket', $data);
+    }
 }

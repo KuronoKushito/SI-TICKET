@@ -21,3 +21,7 @@ Route::get('/proses', [TiketController::class, 'proses'])->name('tiket_proses');
 Route::get('/tolak', [TiketController::class, 'tolak'])->name('tiket_tolak');
 
 Route::get('/selesai', [TiketController::class, 'selesai'])->name('tiket_selesai');
+
+
+
+Route::get('/tiket', [TiketController::class, 'tiket'])->name('tiket_utama'); 

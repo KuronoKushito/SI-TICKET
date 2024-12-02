@@ -47,10 +47,10 @@
                     </a>
                 </li>
                 <li class="nav-item {{ request()->routeIs('tiket_*') ? 'active' : '' }}">
-                    <a data-toggle="collapse" href="#base">
+                    <!-- Link Menu Tiket yang akan mengarah ke halaman utama tiket -->
+                    <a href="/tiket" class="{{ request()->routeIs('tiket_utama') ? 'active' : '' }}">
                         <i class="fas fa-ticket-alt"></i>
                         <p>Tiket</p>
-                        <span class="caret"></span>
                     </a>
                     <div class="collapse {{ request()->routeIs('tiket_*') ? 'show' : '' }}" id="base">
                         <ul class="nav nav-collapse">
